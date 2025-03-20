@@ -1,4 +1,4 @@
-﻿# Elevate
+
 # Elevate Project
 
 # Visit the site
