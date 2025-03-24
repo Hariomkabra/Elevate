@@ -62,10 +62,10 @@ const Courses = () => {
             ))}
           </div>
 
-          <button className="absolute -left-4 top-1/2 transform -translate-y-1/2 bg-pink-500 p-2 rounded-full">
+          <button className="absolute -left-4 top-1/2 transform -translate-y-1/2 bg-yellow-500 p-2 rounded-full">
             <ChevronLeft className="h-6 w-6" />
           </button>
-          <button className="absolute -right-4 top-1/2 transform -translate-y-1/2 bg-pink-500 p-2 rounded-full">
+          <button className="absolute -right-4 top-1/2 transform -translate-y-1/2 bg-yellow-500 p-2 rounded-full">
             <ChevronRight className="h-6 w-6" />
           </button>
         </div>
