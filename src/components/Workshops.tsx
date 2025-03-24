@@ -34,18 +34,18 @@ const WorkshopCard = ({ workshop }) => (
     <div className="p-6">
       <h3 className="text-xl font-semibold mb-2">{workshop.title}</h3>
       <div className="flex items-center mb-3">
-        <Calendar className="h-4 w-4 text-pink-500 mr-2" />
+        <Calendar className="h-4 w-4 text-yellow-500 mr-2" />
         <span className="text-gray-400">{workshop.date}</span>
       </div>
       <div className="flex items-center mb-3">
-        <Users className="h-4 w-4 text-pink-500 mr-2" />
+        <Users className="h-4 w-4 text-yellow-500 mr-2" />
         <span className="text-gray-400">{workshop.attendees} attendees</span>
       </div>
       <div className="flex items-center mb-4">
         <Star className="h-4 w-4 text-yellow-400 fill-current" />
         <span className="ml-2">{workshop.rating}</span>
       </div>
-      <button className="w-full bg-pink-500 hover:bg-pink-600 py-2 rounded-md transition-colors">
+      <button className="w-full bg-yellow-500 hover:bg-yellow-600 py-2 rounded-md transition-colors">
         Register Now
       </button>
     </div>
