@@ -29,7 +29,7 @@ const ExpertCard = ({ expert }) => (
   <div className="bg-gray-900 p-6 rounded-lg text-center">
     <img src={expert.image} alt={expert.name} className="w-32 h-32 rounded-lg mx-auto mb-4 object-cover" />
     <h3 className="text-xl font-semibold mb-2">{expert.name}</h3>
-    <p className="text-pink-500 mb-2">{expert.role}</p>
+    <p className="text-yellow-500 mb-2">{expert.role}</p>
     <p className="text-gray-400 mb-4">{expert.experience} experience</p>
     <a href={expert.linkedin} target="_blank" rel="noopener noreferrer" 
        className="inline-flex items-center text-blue-400 hover:text-blue-500">
