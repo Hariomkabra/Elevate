@@ -23,14 +23,14 @@ const VerifyCertificate = () => {
                 <input
                   type="text"
                   id="certificate"
-                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
+                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"
                   placeholder="Enter certificate number (e.g., CERT-2024-XXXX)"
                 />
               </div>
               
               <button
                 type="submit"
-                className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-md font-semibold flex items-center justify-center gap-2 transition-colors"
+                className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-md font-semibold flex items-center justify-center gap-2 transition-colors"
               >
                 <Search className="h-4 w-4" />
                 Verify Certificate
