@@ -19,7 +19,7 @@ const HelpSupport = () => {
                 <input
                   type="text"
                   id="name"
-                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
+                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"
                   placeholder="Enter your name"
                 />
               </div>
@@ -31,7 +31,7 @@ const HelpSupport = () => {
                 <input
                   type="email"
                   id="email"
-                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
+                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"
                   placeholder="Enter your email"
                 />
               </div>
@@ -43,7 +43,7 @@ const HelpSupport = () => {
                 <input
                   type="tel"
                   id="phone"
-                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
+                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"
                   placeholder="Enter your phone number"
                 />
               </div>
@@ -55,14 +55,14 @@ const HelpSupport = () => {
                 <textarea
                   id="message"
                   rows={4}
-                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
+                  className="w-full bg-gray-800 border border-gray-700 rounded-md px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"
                   placeholder="How can we help you?"
                 />
               </div>
               
               <button
                 type="submit"
-                className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-md font-semibold flex items-center justify-center gap-2 transition-colors"
+                className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-md font-semibold flex items-center justify-center gap-2 transition-colors"
               >
                 <Send className="h-4 w-4" />
                 Send Message
