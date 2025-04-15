@@ -20,6 +20,7 @@ Visit the career section here: https://uptorsite.netlify.app/
 How to Run It Locally
 
 ## Clone the repo :
+https://github.com/Hariomkabra/Elevate
 
 
 
@@ -37,3 +38,7 @@ About Me
 I’m Hariom Kabra, an intern passionate about coding and career growth. See the main Meghplat site here or my GitHub here.
 Contributing
 Feel free to suggest improvements—let’s make it better together!
+
+# ScreenShot:
+![image](https://github.com/user-attachments/assets/5ae1c0bd-ea8d-488b-bec5-9de848c4c610)
+
