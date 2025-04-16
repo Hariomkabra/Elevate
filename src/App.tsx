@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -10,11 +9,8 @@ import Experts from './components/Experts';
 import Footer from './components/Footer';
 import HelpSupport from './pages/HelpSupport';
 import VerifyCertificate from './pages/VerifyCertificate';
-<<<<<<< HEAD
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-=======
->>>>>>> 76ce81e6984028acb71ca861b08fe6fb133c3b2c
 
 function HomePage() {
   return (
@@ -39,11 +35,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/help-support" element={<HelpSupport />} />
           <Route path="/verify-certificate" element={<VerifyCertificate />} />
-<<<<<<< HEAD
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-=======
->>>>>>> 76ce81e6984028acb71ca861b08fe6fb133c3b2c
         </Routes>
       </div>
     </Router>
