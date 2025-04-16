@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BookOpen, HelpCircle, Award, Users, LogIn, UserPlus, ChevronDown, User } from 'lucide-react';
@@ -25,6 +26,13 @@ const Header = () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [accountDropdownOpen]);
+=======
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { BookOpen, HelpCircle, Award, Users, LogIn } from 'lucide-react';
+
+const Header = () => {
+>>>>>>> 76ce81e6984028acb71ca861b08fe6fb133c3b2c
   return (
     <header className="bg-black/95 text-white py-4 px-6 fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -32,7 +40,11 @@ const Header = () => {
           <BookOpen className="h-8 w-8 text-yellow-500" />
           <span className="text-2xl font-bold">Uptor</span>
         </Link>
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 76ce81e6984028acb71ca861b08fe6fb133c3b2c
         <nav className="hidden md:flex items-center space-x-8">
           <Link to="/#courses" className="hover:text-yellow-500 transition-colors">Courses</Link>
           <Link to="/#workshops" className="hover:text-yellow-500 transition-colors">Workshops</Link>
@@ -51,6 +63,7 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center space-x-4">
+<<<<<<< HEAD
           <div className="relative" ref={accountRef}>
             <button
               onClick={(e) => {
@@ -96,6 +109,15 @@ const Header = () => {
               </div>
             )}
           </div>
+=======
+          <button className="flex items-center gap-1 hover:text-yellow-500 transition-colors">
+            <LogIn className="h-4 w-4" />
+            Login
+          </button>
+          <button className="bg-yellow-500 hover:bg-yellow-600 px-4 py-2 rounded-md transition-colors">
+            Sign Up
+          </button>
+>>>>>>> 76ce81e6984028acb71ca861b08fe6fb133c3b2c
         </div>
       </div>
     </header>
